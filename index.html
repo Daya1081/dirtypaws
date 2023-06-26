@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <title>Dirty Paws</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <div class="cont_landing">
+            <div class="encabezado">
+                <div class="logo">
+                    <img src="imagenes/patita.png" class="imagen">
+                </div>
+                <div class="nombre">
+                    Dirty Paws
+                </div>
+            </div>
+            <div class="cont_contenido">
+                <div class="cont_texto">
+                    <p>
+                        ¡Bienvenido a nuestra empresa, tu destino número uno para todo lo relacionado con tus adorables compañeros peludos!
+
+                        En nuestra empresa, nos apasiona brindar productos y servicios de alta calidad para satisfacer todas las necesidades de tus mascotas. Ya sea que tengas un perro juguetón, un gato curioso o cualquier otro tipo de animal, estamos aquí para ayudarte a cuidarlos y consentirlos.
+                    </p>
+                </div>
+                <div class="cont_formulario">
+                    <p class="subtitulo">Web To Lead</p>
+                    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+                        <input type=hidden name="oid" value="00DDn00000Duo3A">
+                        <input type=hidden name="retURL" value="http://www.google.com">
+                        
+                        <label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+                        <label for="last_name">Apellidos</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+                        <label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                        <label for="mobile">Celular</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+                        <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                        <label for="company">Compañía</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+                        <label for="description">Descripción</label><textarea name="description"></textarea><br>
+                        <label for="00NDn00000bvQRW">Interes</label>
+                        <select  id="00NDn00000bvQRW" name="00NDn00000bvQRW" title="Interes" style="font-size: 12px;">
+                            <option value="">--Ninguno--</option><option value="Producto">Producto</option>
+                            <option value="Servicio">Servicio</option>
+                        </select><br>
+                        <label for="00NDn00000bvQTc">Tipo Cliente</label>
+                        <select  id="00NDn00000bvQTc" name="00NDn00000bvQTc" title="Tipo Cliente" style="font-size: 12px;">
+                            <option value="">--Ninguno--</option><option value="Particular">Particular</option>
+                            <option value="Empresa">Empresa</option>
+                        </select><br>
+                        
+                        <input type="submit" name="submit" class="boton1" value="Enviar">
+                    </form>
+                </div>
+                <div class="cont_otroformulario">
+                    <p class="subtitulo">Web To Case</p>
+                    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+                        <input type=hidden name="orgid" value="00DDn00000Duo3A">
+                        <input type=hidden name="retURL" value="http://www.google.com">
+                        
+                        <label for="name">Nombre del contacto</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                        <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                        <label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                        <label for="subject">Asunto</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+                        <label for="description">Descripción</label><textarea name="description"></textarea><br>
+                        <input type="submit" name="submit" class="boton2">
+                        </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

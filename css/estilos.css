@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+main{
+    width: 100%;
+    height: 100vh;
+    background:pink;
+    display: flex;
+    align-items: center;
+    
+}
+.cont_landing{
+    width: 700px;
+    height: 74vh;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.encabezado{
+    width: 100%;
+    height: 20%;
+    background:honeydew;
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombre{
+    width: 60%;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont_contenido{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.cont_texto{
+    width: 40%;
+    height: 100%;
+    background:cadetblue;
+}
+
+.cont_texto p{
+    padding: 30px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+
+.cont_formulario{
+    width: 30%;
+    height: 100%;
+    background:darkcyan;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.subtitulo{
+    color: white;
+    margin-top: 8px;
+}
+.cont_otroformulario{
+    width: 30%;
+    height: 100%;
+    background:palevioletred;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encabezado:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 245px;
+    top: -120px;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url(/imagenes/fondopatita.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: contain;
+    transform: rotate(60deg);
+}
+.cont_formulario form{
+    padding: 10px;
+    line-height: 20px;
+    background: honeydew;
+    margin: 10px;
+    font-size: 12px;
+}
+.cont_otroformulario form{
+    padding: 10px;
+    line-height: 20px;
+    background: honeydew;
+    margin: 10px;
+    font-size: 12px;
+}
+.cont_formulario form input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    background: pink;
+}
+.cont_otroformulario form input, textarea, select{
+    border: none;
+    border-radius: 5px;
+    background: pink;
+}
+.imagen{
+    width: 90px;
+    height: 90px;
+}
+.boton1{
+    width: 160px;
+    height: 25px;
+    margin-top: 12px;
+    background: darkcyan !important;
+
+}
+.boton2{
+    width: 160px;
+    height: 25px;
+    margin-top: 12px;
+    background: darkcyan !important;
+
+}
