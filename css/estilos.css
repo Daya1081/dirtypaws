@@ -94,7 +94,7 @@ main{
     height: 100%;
     z-index: 1;
     opacity: 0.2;
-    background-image: url(/imagenes/fondopatita.png);
+    background-image: url(/dirtypaws/imagenes/fondopatita.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: contain;
